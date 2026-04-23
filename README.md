@@ -1,2 +1,66 @@
-# Airport-lost-found-system
-Web-based Airport Lost and Found System for reporting, tracking, and matching lost and found items at airports.
+# ✈️ Airport Lost & Found Management System
+
+A complete, production-ready web application designed to help airports manage lost and found items efficiently. The system allows passengers to report lost items or browse found items, while providing staff with a secure dashboard to manage reports, track statuses, and utilize matching algorithms to return items to their rightful owners.
+
+## ✨ Features
+
+- **Passenger Portal:**
+  - Report lost items with detailed descriptions and images.
+  - Browse a global, searchable database of found items.
+  - Track the status of reported items.
+- **Staff Dashboard (Secure):**
+  - Secure login and session management for airport staff.
+  - Manage and update the status of lost and found items.
+  - Smart matching algorithm to cross-reference reported lost items with found items.
+- **Automated File Handling:** Seamlessly handles user-uploaded images for items.
+- **Responsive Design:** Fully mobile-responsive interface for access on any device.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Server Environment:** XAMPP
+
+## 🚀 Installation & Setup
+
+Follow these steps to run the project locally on your machine:
+
+1. **Install XAMPP:**
+   Download and install [XAMPP](https://www.apachefriends.org/index.html).
+
+2. **Clone the Repository:**
+   Clone this repository into your XAMPP `htdocs` directory:
+
+   ```bash
+   cd C:\xampp\htdocs
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git lost-found
+   ```
+
+3. **Database Setup:**
+   - Open the XAMPP Control Panel and start **Apache** and **MySQL**.
+   - _Note: This project is configured to connect to MySQL on port `3308`. If your XAMPP uses the default port `3306`, update the port in `config.php`._
+   - Open phpMyAdmin in your browser (usually `http://localhost/phpmyadmin` or `http://localhost:8080/phpmyadmin`).
+   - Create a new database named `airport_lost_found` (or the name specified in your config).
+   - Import the `database.sql` file provided in the root directory to set up the necessary tables and schemas.
+
+4. **Run the Application:**
+   Open your web browser and navigate to:
+   ```
+   http://localhost/lost-found/
+   ```
+
+## 📂 Project Structure
+
+- `/passenger` - Pages and logic for passenger-facing interfaces.
+- `/staff` - Secure dashboard and logic for airport staff.
+- `/uploads` - Directory where uploaded images of items are stored.
+- `config.php` - Database connection settings.
+- `database.sql` - SQL script to generate the database schema.
+- `index.php` - Main landing page of the application.
+- `script.js` - Global JavaScript logic.
+- `style.css` - Global styling and design system.
+
+## 📄 License
+
+This project is licensed under the MIT License.
