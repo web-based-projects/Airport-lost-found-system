@@ -65,9 +65,9 @@ Follow these steps to run the project locally on your machine:
 
 ## 📸 Screenshot
 
-| Home Page | Staff Dashboard |
-| :---: | :---: |
-| ![Home](assets/home_screenshot.png) | ![Dashboard](https://via.placeholder.com/400x250?text=Staff+Dashboard) |
+| Home Page | 
+| :---: |
+| ![Home](assets/home_screenshot.png) |
 
 ---
 
