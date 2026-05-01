@@ -63,7 +63,7 @@ Follow these steps to run the project locally on your machine:
 - `style.css` - Global styling and design system.
 
 
-## 📸 Screenshot
+
 
 | Home Page | 
 | :---: |
