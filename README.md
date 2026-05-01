@@ -2,19 +2,25 @@
 
 A complete, production-ready web application designed to help airports manage lost and found items efficiently. The system allows passengers to report lost items or browse found items, while providing staff with a secure dashboard to manage reports, track statuses, and utilize matching algorithms to return items to their rightful owners.
 
-## ✨ Features
+---
 
-- **Passenger Portal:**
-  - Report lost items with detailed descriptions and images.
-  - Browse a global, searchable database of found items.
-  - Track the status of reported items.
-- **Staff Dashboard (Secure):**
-  - Secure login and session management for airport staff.
-  - Manage and update the status of lost and found items.
-  - Smart matching algorithm to cross-reference reported lost items with found items.
-- **Automated File Handling:** Seamlessly handles user-uploaded images for items.
-- **Responsive Design:** Fully mobile-responsive interface for access on any device.
+## 🌟 Key Features
 
+### 👤 Passenger Portal
+- **Smart Reporting**: Interactive form to report lost items with detailed descriptions and image uploads.
+- **Instant Tracking**: Check the status of your claim in real-time using a unique Claim Code.
+- **Claim Passes**: Generate a digital claim pass once an item is matched for quick verification at the office.
+
+### 🛡️ Staff Management System
+- **Comprehensive Dashboard**: Real-time stats on lost vs. found items and recovery rates.
+- **Log Found Items**: Easy logging for staff to record items found across terminal gates and lounges.
+- **Advanced Match System**: Intelligent filtering to match reported lost items with found inventory.
+- **Secure Returns**: Digital workflow to process item returns and maintain history.
+
+### 🎨 Premium User Experience
+- **Responsive Design**: Optimized for Desktop, Tablet, and Mobile devices.
+- **Modern UI**: Elegant color palette inspired by Ethiopian Airlines branding (Deep Forest Green and Gold).
+---
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript
