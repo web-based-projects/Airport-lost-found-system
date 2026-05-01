@@ -62,6 +62,20 @@ Follow these steps to run the project locally on your machine:
 - `script.js` - Global JavaScript logic.
 - `style.css` - Global styling and design system.
 
+
+## 📸 Screenshot
+
+| Home Page | Staff Dashboard |
+| :---: | :---: |
+| ![Home](assets/home_screenshot.png) | ![Dashboard](https://via.placeholder.com/400x250?text=Staff+Dashboard) |
+
+---
+
+## 🔐 Staff Access (Demo)
+- **Username**: `staff`
+- **Password**: `staff123`
+
+
 ## 📄 License
 
 This project is licensed under the MIT License.
